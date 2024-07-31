@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e3976da977cb49238499ea3b4c237ae, type: 3}
+  m_Name: ProfileDataSourceSettings
+  m_EditorClassIdentifier: 
+  profileGroupTypes:
+  - m_GroupTypePrefix: Built-In
+    m_Variables:
+    - m_Suffix: BuildPath
+      m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+    - m_Suffix: LoadPath
+      m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+  - m_GroupTypePrefix: Editor Hosted
+    m_Variables:
+    - m_Suffix: BuildPath
+      m_Value: ServerData/[BuildTarget]
+    - m_Suffix: LoadPath
+      m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+  - m_GroupTypePrefix: Automatic
+    m_Variables:
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/ManagedEnvironment/ManagedBucket/ManagedBadge
+    - m_Suffix: LoadPath
+      m_Value: https://860d4495-f653-492e-a5cc-dd088cfc2669.client-api.unity3dusercontent.com/client_api/v1/environments/{CcdManager.EnvironmentName}/buckets/{CcdManager.BucketId}/release_by_badge/{CcdManager.Badge}/entry_by_path/content/?path=
+    - m_Suffix: EnvironmentName
+      m_Value: production
+  - m_GroupTypePrefix: CCD.860d4495-f653-492e-a5cc-dd088cfc2669.06ba4ade-1bad-44de-918d-5729c79bf291.34cdea89-e185-4221-a689-bd94788e89d2.latest
+    m_Variables:
+    - m_Suffix: CcdBucketName
+      m_Value: SecondGame
+    - m_Suffix: CcdBucketId
+      m_Value: 34cdea89-e185-4221-a689-bd94788e89d2
+    - m_Suffix: CcdBadgeName
+      m_Value: latest
+    - m_Suffix: PromoteOnly
+      m_Value: False
+    - m_Suffix: Environmentname
+      m_Value: production
+    - m_Suffix: Environmentid
+      m_Value: 06ba4ade-1bad-44de-918d-5729c79bf291
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/06ba4ade-1bad-44de-918d-5729c79bf291/34cdea89-e185-4221-a689-bd94788e89d2/latest
+    - m_Suffix: LoadPath
+      m_Value: https://860d4495-f653-492e-a5cc-dd088cfc2669.client-api.unity3dusercontent.com/client_api/v1/environments/production/buckets/34cdea89-e185-4221-a689-bd94788e89d2/release_by_badge/latest/entry_by_path/content/?path=
+  - m_GroupTypePrefix: CCD.860d4495-f653-492e-a5cc-dd088cfc2669.06ba4ade-1bad-44de-918d-5729c79bf291.60cac23e-c17c-4231-affc-a64f87763a45.latest
+    m_Variables:
+    - m_Suffix: CcdBucketName
+      m_Value: FirstGame
+    - m_Suffix: CcdBucketId
+      m_Value: 60cac23e-c17c-4231-affc-a64f87763a45
+    - m_Suffix: CcdBadgeName
+      m_Value: latest
+    - m_Suffix: PromoteOnly
+      m_Value: False
+    - m_Suffix: Environmentname
+      m_Value: production
+    - m_Suffix: Environmentid
+      m_Value: 06ba4ade-1bad-44de-918d-5729c79bf291
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/06ba4ade-1bad-44de-918d-5729c79bf291/60cac23e-c17c-4231-affc-a64f87763a45/latest
+    - m_Suffix: LoadPath
+      m_Value: https://860d4495-f653-492e-a5cc-dd088cfc2669.client-api.unity3dusercontent.com/client_api/v1/environments/production/buckets/60cac23e-c17c-4231-affc-a64f87763a45/release_by_badge/latest/entry_by_path/content/?path=
+  - m_GroupTypePrefix: Automatic
+    m_Variables:
+    - m_Suffix: CcdBucketName
+      m_Value: StandaloneWindows64
+    - m_Suffix: CcdBucketId
+      m_Value: d316877f-d5fe-483e-a1f6-c79b9f106214
+    - m_Suffix: CcdBadgeName
+      m_Value: latest
+    - m_Suffix: PromoteOnly
+      m_Value: False
+    - m_Suffix: Environmentname
+      m_Value: develop
+    - m_Suffix: Environmentid
+      m_Value: 8924cfe6-63ea-4273-b205-704bdb56670e
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/8924cfe6-63ea-4273-b205-704bdb56670e/d316877f-d5fe-483e-a1f6-c79b9f106214/latest
+    - m_Suffix: LoadPath
+      m_Value: https://860d4495-f653-492e-a5cc-dd088cfc2669.client-api.unity3dusercontent.com/client_api/v1/environments/develop/buckets/d316877f-d5fe-483e-a1f6-c79b9f106214/release_by_badge/latest/entry_by_path/content/?path=
+  - m_GroupTypePrefix: CCD.860d4495-f653-492e-a5cc-dd088cfc2669.8924cfe6-63ea-4273-b205-704bdb56670e.81282387-c00f-46c9-9351-c6711229da30.latest
+    m_Variables:
+    - m_Suffix: CcdBucketName
+      m_Value: FirstGame
+    - m_Suffix: CcdBucketId
+      m_Value: 81282387-c00f-46c9-9351-c6711229da30
+    - m_Suffix: CcdBadgeName
+      m_Value: latest
+    - m_Suffix: PromoteOnly
+      m_Value: False
+    - m_Suffix: Environmentname
+      m_Value: develop
+    - m_Suffix: Environmentid
+      m_Value: 8924cfe6-63ea-4273-b205-704bdb56670e
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/8924cfe6-63ea-4273-b205-704bdb56670e/81282387-c00f-46c9-9351-c6711229da30/latest
+    - m_Suffix: LoadPath
+      m_Value: https://860d4495-f653-492e-a5cc-dd088cfc2669.client-api.unity3dusercontent.com/client_api/v1/environments/develop/buckets/81282387-c00f-46c9-9351-c6711229da30/release_by_badge/latest/entry_by_path/content/?path=
+  - m_GroupTypePrefix: CCD.860d4495-f653-492e-a5cc-dd088cfc2669.8924cfe6-63ea-4273-b205-704bdb56670e.e168ace8-17c7-4c5f-ab71-74610fd99c57.latest
+    m_Variables:
+    - m_Suffix: CcdBucketName
+      m_Value: SecondGame
+    - m_Suffix: CcdBucketId
+      m_Value: e168ace8-17c7-4c5f-ab71-74610fd99c57
+    - m_Suffix: CcdBadgeName
+      m_Value: latest
+    - m_Suffix: PromoteOnly
+      m_Value: False
+    - m_Suffix: Environmentname
+      m_Value: develop
+    - m_Suffix: Environmentid
+      m_Value: 8924cfe6-63ea-4273-b205-704bdb56670e
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/8924cfe6-63ea-4273-b205-704bdb56670e/e168ace8-17c7-4c5f-ab71-74610fd99c57/latest
+    - m_Suffix: LoadPath
+      m_Value: https://860d4495-f653-492e-a5cc-dd088cfc2669.client-api.unity3dusercontent.com/client_api/v1/environments/develop/buckets/e168ace8-17c7-4c5f-ab71-74610fd99c57/release_by_badge/latest/entry_by_path/content/?path=
+  environments:
+  - id: 06ba4ade-1bad-44de-918d-5729c79bf291
+    projectId: 860d4495-f653-492e-a5cc-dd088cfc2669
+    projectGenesisId: 860d4495-f653-492e-a5cc-dd088cfc2669
+    name: production
+    isDefault: 1
+  - id: 8924cfe6-63ea-4273-b205-704bdb56670e
+    projectId: 860d4495-f653-492e-a5cc-dd088cfc2669
+    projectGenesisId: 860d4495-f653-492e-a5cc-dd088cfc2669
+    name: develop
+    isDefault: 0
+  currentEnvironment:
+    id: 
+    projectId: 
+    projectGenesisId: 
+    name: 
+    isDefault: 0

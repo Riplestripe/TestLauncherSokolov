@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: FirstGame
+  m_EditorClassIdentifier: 
+  m_GroupName: FirstGame
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2936fddc6b6b99543affd3f9b5f873fa
+  m_SerializeEntries:
+  - m_GUID: 8132b4bd707ba51479bd49e075d87e28
+    m_Address: FirstGame
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FirstGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 856d51b02423a494dab23d28acefee82
+    m_Address: Handle_Ridged
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FirstGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 564345887c3bda24190c0b7145ea56a2
+    m_Address: Prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FirstGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51dafb0217f58454994e484a45386f07
+    m_Address: Canvas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FirstGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccefd019d20715a41891c02e3d4460f5
+    m_Address: Scene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FirstGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccbcb5c751af48f4482eee6b7b9ae29b
+    m_Address: SaveManager
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FirstGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9104720bb819c644a99be50740976be9
+    m_Address: EventSystem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FirstGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6209264d0aef1de45b1f69cb4f7bf622
+    m_Address: Main Camera
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - FirstGame
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bf4c5efc39c3002438dcee22c276280b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f793500f5e91e824aa01974b24b7efdf, type: 2}
+    - {fileID: 11400000, guid: 4d1443f6b2628744294479d2efdbd93e, type: 2}
